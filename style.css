@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0,0.5);
+    text-align: center;
+   
+}
+
+.month{
+padding: 10px;
+font-size: 1.5rem;
+background-color: rgb(197, 211, 39);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+font-weight: bold;    
+}
+.weekday{
+  margin-top: 10px;
+  font-size: 19px; 
+  
+  
+}
+
+.date{
+    font-size: 3rem;
+    margin-top: 17px;
+   
+    font-weight: bold;
+}
+.year{
+    margin-top: 15px;
+}
